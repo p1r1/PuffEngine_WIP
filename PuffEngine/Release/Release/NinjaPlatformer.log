@@ -1,0 +1,14 @@
+﻿  App.cpp
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\PuffEngine\Vertex.h(16): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  GamePlayScreen.cpp
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\PuffEngine\Vertex.h(16): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  main.cpp
+C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\PuffEngine\Vertex.h(16): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  MainMenuScreen.cpp
+  Generating code
+  193 of 1949 functions ( 9.9%) were compiled, the rest were copied from previous compilation.
+    164 functions were new in current compilation
+    113 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  NinjaPlatformer.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\Release\NinjaPlatformer.exe
+  NinjaPlatformer.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\Release\NinjaPlatformer.pdb (Full PDB)

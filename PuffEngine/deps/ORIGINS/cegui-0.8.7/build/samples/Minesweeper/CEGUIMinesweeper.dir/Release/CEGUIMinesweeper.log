@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples/Minesweeper/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/samples/Minesweeper/CMakeFiles/generate.stamp is up-to-date.
+  Minesweeper_Timer.cpp
+  Sample_Minesweeper.cpp
+     Creating library C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUIMinesweeper.lib and object C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUIMinesweeper.exp
+  CEGUIMinesweeper.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\CEGUIMinesweeper.dll

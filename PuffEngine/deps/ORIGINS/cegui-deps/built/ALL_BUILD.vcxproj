@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{20C56327-2136-384C-BDD2-A855B22E5F50}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\ZERO_CHECK.vcxproj">
+      <Project>{7CD900EB-36A2-3399-A309-57703CBABD42}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\POST_BUILD_CLEANUP.vcxproj">
+      <Project>{1ED69A33-A0C0-3949-A064-774B05A63306}</Project>
+      <Name>POST_BUILD_CLEANUP</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\SILLY\CEGUI-BUILD\SILLY.vcxproj">
+      <Project>{28BCBA30-A7EE-3C47-883B-1D536F7817E8}</Project>
+      <Name>SILLY</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\SILLY\CEGUI-BUILD\SILLY_static.vcxproj">
+      <Project>{2AD9AAA9-7304-348F-9B28-5C91EE16444C}</Project>
+      <Name>SILLY_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\pcre-8.12\CEGUI-BUILD\dftables.vcxproj">
+      <Project>{F5559E73-119E-3701-ADA6-04ECA89976B2}</Project>
+      <Name>dftables</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\freetype-2.4.4\CEGUI-BUILD\freetype.vcxproj">
+      <Project>{B7DCE750-169F-34D6-AEDF-1D1BE18C27B2}</Project>
+      <Name>freetype</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\freetype-2.4.4\CEGUI-BUILD\freetype_static.vcxproj">
+      <Project>{5712218F-CCE1-3BEF-BFD7-1F63317027C6}</Project>
+      <Name>freetype_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\glew-1.7.0\CEGUI-BUILD\glew.vcxproj">
+      <Project>{E61E42B1-1508-3082-BF42-98D9AC12449F}</Project>
+      <Name>glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\glew-1.7.0\CEGUI-BUILD\glew_static.vcxproj">
+      <Project>{B52E976B-19A3-32C8-8C32-97919E2BE676}</Project>
+      <Name>glew_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\glfw-2.7.2\CEGUI-BUILD\glfw.vcxproj">
+      <Project>{D412A7A4-9EB0-3418-A9D6-7D6A5B382498}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\glfw-2.7.2\CEGUI-BUILD\glfw_static.vcxproj">
+      <Project>{723D1D87-402B-338A-9FA0-FFDC343CEB41}</Project>
+      <Name>glfw_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\glm-0.9.4.5\CEGUI-BUILD\glm.vcxproj">
+      <Project>{711A917D-2A53-384D-A1D1-42149251D181}</Project>
+      <Name>glm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\jpeg-8c\CEGUI-BUILD\jpeg.vcxproj">
+      <Project>{6A38341C-6C02-3E88-A156-DDCB085F5E6A}</Project>
+      <Name>jpeg</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\jpeg-8c\CEGUI-BUILD\jpeg_static.vcxproj">
+      <Project>{A1106BE7-3C18-39A9-81DE-9EE206BD78C5}</Project>
+      <Name>jpeg_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\expat-2.0.1\CEGUI-BUILD\libexpat.vcxproj">
+      <Project>{230BEF40-ECB8-3488-B182-A0109070607B}</Project>
+      <Name>libexpat</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\expat-2.0.1\CEGUI-BUILD\libexpat_static.vcxproj">
+      <Project>{03F795A6-AA04-3696-B474-91CEABF2324F}</Project>
+      <Name>libexpat_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\libpng-1.4.7\CEGUI-BUILD\libpng.vcxproj">
+      <Project>{4524514C-389E-3A6F-A523-25B590972D90}</Project>
+      <Name>libpng</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\libpng-1.4.7\CEGUI-BUILD\libpng_static.vcxproj">
+      <Project>{500C8266-44A1-3939-A3A0-3CCB8D662D23}</Project>
+      <Name>libpng_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\pcre-8.12\CEGUI-BUILD\pcre.vcxproj">
+      <Project>{A3F37428-D8F2-3EB6-BE81-F24ADB85BDE2}</Project>
+      <Name>pcre</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\pcre-8.12\CEGUI-BUILD\pcre_static.vcxproj">
+      <Project>{68BFB760-A986-3CF3-87A9-38E7AD3C03FA}</Project>
+      <Name>pcre_static</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\zlib-1.2.5\CEGUI-BUILD\zlib.vcxproj">
+      <Project>{8D6F92D3-AF87-3AF6-A0CF-B1399E59D7DE}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\src\zlib-1.2.5\CEGUI-BUILD\zlib_static.vcxproj">
+      <Project>{9DD8D20C-5D39-3548-8967-8658A224FCE7}</Project>
+      <Name>zlib_static</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

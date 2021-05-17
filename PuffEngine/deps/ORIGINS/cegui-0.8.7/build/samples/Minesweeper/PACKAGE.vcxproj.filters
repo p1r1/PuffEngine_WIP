@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\CMakeFiles\3766f7613e068a03ba58a88abcd08dbe\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9830F81E-65B2-3167-B56F-482808447E23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

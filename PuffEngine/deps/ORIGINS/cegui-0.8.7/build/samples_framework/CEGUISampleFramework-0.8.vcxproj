@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BA845A3A-F158-3E46-8F06-C427E88D7405}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>CEGUISampleFramework-0.8</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CEGUISampleFramework-0.8.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CEGUISampleFramework-0.8_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CEGUISampleFramework-0.8.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CEGUISampleFramework-0.8.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CEGUISampleFramework-0.8.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\..\dependencies\lib\dynamic\glfw_d.lib;..\lib\CEGUIOpenGLRenderer-0_d.lib;..\lib\CEGUIBase-0_d.lib;..\..\dependencies\lib\dynamic\freetype_d.lib;..\..\dependencies\lib\dynamic\pcre_d.lib;winmm.lib;DbgHelp.lib;opengl32.lib;glu32.lib;..\..\dependencies\lib\dynamic\glew_d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\..\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;..\..\dependencies\lib\dynamic\freetype.lib;..\..\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;..\..\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\..\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;..\..\dependencies\lib\dynamic\freetype.lib;..\..\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;..\..\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cegui\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;..\..\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;..\..\dependencies\lib\dynamic\freetype.lib;..\..\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;..\..\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7" "-BC:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build" --check-stamp-file "C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7" "-BC:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build" --check-stamp-file "C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7" "-BC:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build" --check-stamp-file "C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-HC:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7" "-BC:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build" --check-stamp-file "C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt;C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\SamplesFrameworkBase.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\SamplesFramework.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\CEGuiBaseApplication.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\CEGuiRendererSelector.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\Samples_xmlHandler.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\SampleData.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\MetaDataWindowManager.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\SamplesBrowserManager.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\Win32AppHelper.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\Win32CEGuiRendererSelector.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\CEGuiGLFWSharedBase.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\CEGuiGLFW2SharedBase.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\CEGuiOpenGLBaseApplication.cpp" />
+    <ClCompile Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\src\CEGuiOpenGL3BaseApplication.cpp" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples\common\include\Sample.h" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include\SamplesFrameworkBase.h" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include\SamplesFramework.h" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include\CEGuiBaseApplication.h" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include\CEGuiRendererSelector.h" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include\Samples_xmlHandler.h" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include\SampleData.h" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include\MetaDataWindowManager.h" />
+    <ClInclude Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\samples_framework\include\SamplesBrowserManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\ZERO_CHECK.vcxproj">
+      <Project>{2D2FCC0E-3C21-3906-BAD2-4441589A7968}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\src\CEGUIBase-0.vcxproj">
+      <Project>{455DEDF9-651C-3532-99B6-31E298C3E05E}</Project>
+      <Name>CEGUIBase-0</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\CommonDialogsDemo\CEGUICommonDialogsDemo.vcxproj">
+      <Project>{3B10BABB-A1A4-30CA-A9DC-CDF54317BBA4}</Project>
+      <Name>CEGUICommonDialogsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\src\WindowRendererSets\Core\CEGUICoreWindowRendererSet.vcxproj">
+      <Project>{5FB8E937-FC5F-3371-A225-9D0AEB376A3A}</Project>
+      <Name>CEGUICoreWindowRendererSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\Demo6\CEGUIDemo6.vcxproj">
+      <Project>{F37AD248-6352-34DB-8E8E-DC35B1C7767F}</Project>
+      <Name>CEGUIDemo6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\DragDropDemo\CEGUIDragDropDemo.vcxproj">
+      <Project>{D5325ED8-EACE-35AC-815C-B8E899F13484}</Project>
+      <Name>CEGUIDragDropDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\EditboxValidationDemo\CEGUIEditboxValidationDemo.vcxproj">
+      <Project>{F95443BD-7A80-3417-B8E5-DF084D8E8E67}</Project>
+      <Name>CEGUIEditboxValidationDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\EffectsDemo\CEGUIEffectsDemo.vcxproj">
+      <Project>{DD9BDA5B-9460-35E5-9CDE-07C24F14FD47}</Project>
+      <Name>CEGUIEffectsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\src\XMLParserModules\Expat\CEGUIExpatParser.vcxproj">
+      <Project>{FBE30E38-1C05-32AF-AFC2-AF2CEB54C6ED}</Project>
+      <Name>CEGUIExpatParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\FontDemo\CEGUIFontDemo.vcxproj">
+      <Project>{071898F8-1DCF-3E37-B84D-24C61E05A497}</Project>
+      <Name>CEGUIFontDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\GameMenu\CEGUIGameMenuDemo.vcxproj">
+      <Project>{E0D6D620-6492-3B25-96D0-9061C4E1BD8F}</Project>
+      <Name>CEGUIGameMenuDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\HUDDemo\CEGUIHUDDemo.vcxproj">
+      <Project>{71C75A4C-5A89-3C11-82D4-4F8D9231AF20}</Project>
+      <Name>CEGUIHUDDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\HelloWorld\CEGUIHelloWorldDemo.vcxproj">
+      <Project>{A852B569-6613-3EEB-A370-94069A64EFEC}</Project>
+      <Name>CEGUIHelloWorldDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\InventoryDemo\CEGUIInventoryDemo.vcxproj">
+      <Project>{28AAD9FE-9822-3ABA-9EE6-EEA122AA4519}</Project>
+      <Name>CEGUIInventoryDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\LookNFeelOverview\CEGUILookNFeelOverviewDemo.vcxproj">
+      <Project>{3D6A337F-CAA7-3A33-85AC-B0E85A0DA997}</Project>
+      <Name>CEGUILookNFeelOverviewDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\Minesweeper\CEGUIMinesweeper.vcxproj">
+      <Project>{2892C9BD-06B2-3BCA-BFB9-C00D4146C6BF}</Project>
+      <Name>CEGUIMinesweeper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\src\RendererModules\OpenGL\CEGUIOpenGLRenderer-0.vcxproj">
+      <Project>{E562BB22-6C97-3A33-B686-E424513EDA68}</Project>
+      <Name>CEGUIOpenGLRenderer-0</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\cegui\src\ImageCodecModules\SILLY\CEGUISILLYImageCodec.vcxproj">
+      <Project>{869EFC70-C47C-3B12-B497-1EE3F4293D8A}</Project>
+      <Name>CEGUISILLYImageCodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\ScrollablePaneDemo\CEGUIScrollablePaneDemo.vcxproj">
+      <Project>{6BC346B2-B2EC-39BF-BBD2-63D03EDFA712}</Project>
+      <Name>CEGUIScrollablePaneDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\TabControlDemo\CEGUITabControlDemo.vcxproj">
+      <Project>{8284283C-5FEC-31EA-8516-C5A033287BB8}</Project>
+      <Name>CEGUITabControlDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\TextDemo\CEGUITextDemo.vcxproj">
+      <Project>{11DC192D-C5CB-37F1-9F18-881E98522740}</Project>
+      <Name>CEGUITextDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\TreeDemo\CEGUITreeDemo.vcxproj">
+      <Project>{66AC7A01-51E0-3133-A2A7-43935480FC2E}</Project>
+      <Name>CEGUITreeDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\samples\WidgetDemo\CEGUIWidgetDemo.vcxproj">
+      <Project>{BFACA15C-BCF9-312A-8CE4-EC30F7F78ADA}</Project>
+      <Name>CEGUIWidgetDemo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

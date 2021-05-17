@@ -1,0 +1,6 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples/FontDemo/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/samples/FontDemo/CMakeFiles/generate.stamp is up-to-date.
+  Sample_FontDemo.cpp
+     Creating library C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUIFontDemo_d.lib and object C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUIFontDemo_d.exp
+  CEGUIFontDemo.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\CEGUIFontDemo_d.dll
+  CEGUIFontDemo.vcxproj -> C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUIFontDemo_d.pdb (Full PDB)

@@ -1,0 +1,9 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/cegui/src/CommonDialogs/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/cegui/src/CommonDialogs/CMakeFiles/generate.stamp is up-to-date.
+  Module.cpp
+  ColourPicker.cpp
+  Controls.cpp
+  Conversions.cpp
+  Types.cpp
+     Creating library C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUICommonDialogs-0.lib and object C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUICommonDialogs-0.exp
+  CEGUICommonDialogs-0.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\CEGUICommonDialogs-0.dll

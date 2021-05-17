@@ -1,0 +1,7 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/cegui/src/ImageCodecModules/SILLY/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/cegui/src/ImageCodecModules/SILLY/CMakeFiles/generate.stamp is up-to-date.
+  ImageCodec.cpp
+  ImageCodecModule.cpp
+     Creating library C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUISILLYImageCodec_d.lib and object C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUISILLYImageCodec_d.exp
+  CEGUISILLYImageCodec.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\CEGUISILLYImageCodec_d.dll
+  CEGUISILLYImageCodec.vcxproj -> C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUISILLYImageCodec_d.pdb (Full PDB)

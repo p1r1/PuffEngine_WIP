@@ -1,0 +1,85 @@
+﻿  Agent.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Agent.cpp(46,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Agent.cpp(105,25): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Agent.cpp(105,38): warning C4244: 'argument': conversion from 'T' to 'const unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Gun.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Gun.cpp(36,39): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Human.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Human.cpp(29,39): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Human.cpp(47,39): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Level.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Level.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Level.cpp(41,21): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Level.cpp(72,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Level.cpp(73,27): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  main.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\GLTexture.h(5,18): warning C4099: 'PuffEngine::GLTexture': type name first seen using 'class' now seen using 'struct'
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\GLTexture.h(5): message : see declaration of 'PuffEngine::GLTexture'
+  MainZombieGame.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\GLTexture.h(5,18): warning C4099: 'PuffEngine::GLTexture': type name first seen using 'class' now seen using 'struct'
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\GLTexture.h(5): message : see declaration of 'PuffEngine::GLTexture'
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(40,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(124,24): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(136,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(172,22): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(178,18): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(215,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(222,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(230,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(232,25): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(236,21): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(255,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(257,25): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(266,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(279,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(281,21): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(310,22): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(362,72): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(362,57): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(411,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(418,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(425,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\MainZombieGame.cpp(474,39): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Player.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  Zombie.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\Zombie.cpp(41,20): warning C4018: '<': signed/unsigned mismatch
+  ZombieBullet.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\ZombieBullet.cpp(66,24): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\ZombieBullet.cpp(67,24): warning C4244: '=': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\ZombieBullet.cpp(69,43): warning C4018: '>=': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\ZombieGame\ZombieBullet.cpp(70,40): warning C4018: '>=': signed/unsigned mismatch
+  Generating Code...
+  ZombieGame.vcxproj -> D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\Debug\ZombieGame.exe

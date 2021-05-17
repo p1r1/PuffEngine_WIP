@@ -1,0 +1,27 @@
+﻿  Bullet.cpp
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244:  'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\TextureCahce.h(12,28): error C2039:  'string': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\map(20): message :  see declaration of 'std'
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\TextureCahce.h(12,35): error C2061:  syntax error: identifier 'string'
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\TextureCahce.h(15,16): error C2039:  'string': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\map(20): message :  see declaration of 'std'
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\TextureCahce.h(15,22): error C2065:  'string': undeclared identifier
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\TextureCahce.h(15,7): error C2923:  'std::map': 'string' is not a valid template type argument for parameter '_Kty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\map(69,46): error C3203:  'less': unspecialized class template can't be used as a template argument for template parameter '_Pr', expected a real type
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\map(69,83): error C3203:  'pair': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\ResourceManager.h(7,35): error C2039:  'string': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.22.27905\include\map(20): message :  see declaration of 'std'
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\ResourceManager.h(7,42): error C2061:  syntax error: identifier 'string'
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\graphicsTutorials\Bullet.cpp(21,81): warning C4129:  'P': unrecognized character escape sequence
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\graphicsTutorials\Bullet.cpp(21,139): error C2660:  'PuffEngine::ResourceManager::getTexture': function does not take 1 arguments
+  main.cpp
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\ResourceManager.h(7,19): message :  see declaration of 'PuffEngine::ResourceManager::getTexture'
+  MainGameTutorials.cpp
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244:  'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244:  'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\graphicsTutorials\MainGameTutorials.cpp(51,16): warning C4305:  '+=': truncation from 'double' to 'float'
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\graphicsTutorials\MainGameTutorials.cpp(55,21): warning C4018:  '<': signed/unsigned mismatch
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\graphicsTutorials\MainGameTutorials.cpp(103,59): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\graphicsTutorials\MainGameTutorials.cpp(103,44): warning C4244:  'argument': conversion from 'Sint32' to 'float', possible loss of data
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\graphicsTutorials\MainGameTutorials.cpp(183,81): warning C4129:  'P': unrecognized character escape sequence
+D:\devs\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\graphicsTutorials\MainGameTutorials.cpp(192,20): warning C4018:  '<': signed/unsigned mismatch

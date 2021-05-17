@@ -1,0 +1,4 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/src/glew-1.7.0/CEGUI-BUILD/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/built/src/glew-1.7.0/CEGUI-BUILD/CMakeFiles/generate.stamp is up-to-date.
+  glew.c
+  glew_static.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\dependencies\lib\static\glew.lib

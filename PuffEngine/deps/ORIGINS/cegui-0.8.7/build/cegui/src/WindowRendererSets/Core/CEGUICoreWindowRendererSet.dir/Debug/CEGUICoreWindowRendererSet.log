@@ -1,0 +1,33 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/cegui/src/WindowRendererSets/Core/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/cegui/src/WindowRendererSets/Core/CMakeFiles/generate.stamp is up-to-date.
+  Button.cpp
+  Default.cpp
+  Editbox.cpp
+  FrameWindow.cpp
+  ItemEntry.cpp
+  ItemListbox.cpp
+  ListHeader.cpp
+  ListHeaderSegment.cpp
+  Listbox.cpp
+  MenuItem.cpp
+  Menubar.cpp
+  Module.cpp
+  MultiColumnList.cpp
+  MultiLineEditbox.cpp
+  PopupMenu.cpp
+  ProgressBar.cpp
+  ScrollablePane.cpp
+  Scrollbar.cpp
+  Slider.cpp
+  Static.cpp
+  StaticImage.cpp
+  StaticText.cpp
+  TabButton.cpp
+  TabControl.cpp
+  Titlebar.cpp
+  ToggleButton.cpp
+  Tooltip.cpp
+  Tree.cpp
+     Creating library C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUICoreWindowRendererSet_d.lib and object C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUICoreWindowRendererSet_d.exp
+  CEGUICoreWindowRendererSet.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\CEGUICoreWindowRendererSet_d.dll
+  CEGUICoreWindowRendererSet.vcxproj -> C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUICoreWindowRendererSet_d.pdb (Full PDB)

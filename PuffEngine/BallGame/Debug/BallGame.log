@@ -1,0 +1,8 @@
+﻿  BallRenderer.cpp
+c:\users\faruk\documents\visual studio 2015\projects\akiramero\graphics 1\zombiegame\puffengine\vertex.h(16): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  MainBallGame.cpp
+  Main.cpp
+  BallGame.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\Debug\BallGame.exe
+  BallGame.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\Debug\BallGame.pdb (Full PDB)

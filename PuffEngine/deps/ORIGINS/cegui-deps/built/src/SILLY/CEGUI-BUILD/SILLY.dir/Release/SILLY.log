@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/src/SILLY/CEGUI-BUILD/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/built/src/SILLY/CEGUI-BUILD/CMakeFiles/generate.stamp is up-to-date.
+  SILLYDataSource.cpp
+  SILLYFileDataSource.cpp
+  SILLYImage.cpp
+  SILLYImageContext.cpp
+  SILLYImageLoader.cpp
+  SILLYImageLoaderManager.cpp
+  SILLYMemoryDataSource.cpp
+  SILLYJPGImageContext.cpp
+  SILLYJPGImageLoader.cpp
+  SILLYPNGImageContext.cpp
+  SILLYPNGImageLoader.cpp
+  SILLYTGAImageContext.cpp
+  SILLYTGAImageLoader.cpp
+  Generating Code...
+     Creating library C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/built/dependencies/lib/dynamic/SILLY.lib and object C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/built/dependencies/lib/dynamic/SILLY.exp
+  SILLY.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\dependencies\bin\SILLY.dll

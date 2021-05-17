@@ -1,0 +1,53 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/src/freetype-2.4.4/CEGUI-BUILD/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/built/src/freetype-2.4.4/CEGUI-BUILD/CMakeFiles/generate.stamp is up-to-date.
+  ftsystem.c
+  ftinit.c
+  ftdebug.c
+  ftbase.c
+  ftbbox.c
+  ftglyph.c
+  ftbdf.c
+  ftbitmap.c
+  ftcid.c
+  ftfstype.c
+  ftgasp.c
+  ftgxval.c
+  ftlcdfil.c
+  ftmm.c
+  ftotval.c
+  ftpatent.c
+  ftpfr.c
+  ftstroke.c
+  ftsynth.c
+  fttype1.c
+  Generating Code...
+  Compiling...
+  ftwinfnt.c
+  ftxf86.c
+  bdf.c
+  cff.c
+  type1cid.c
+  pcf.c
+  pfr.c
+  sfnt.c
+  truetype.c
+  type1.c
+  type42.c
+  winfnt.c
+  raster.c
+  smooth.c
+  autofit.c
+  ftcache.c
+  ftgzip.c
+  ftlzw.c
+  gxvalid.c
+  otvalid.c
+  Generating Code...
+  Compiling...
+  psaux.c
+  pshinter.c
+  psnames.c
+  Generating Code...
+     Creating library C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/built/dependencies/lib/dynamic/freetype_d.lib and object C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/built/dependencies/lib/dynamic/freetype_d.exp
+  freetype.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-deps\built\dependencies\bin\freetype_d.dll
+  freetype.vcxproj -> C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-deps/built/dependencies/bin/freetype_d.pdb (Full PDB)

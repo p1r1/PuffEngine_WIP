@@ -1,0 +1,21 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/cegui/src/RendererModules/OpenGL/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/cegui/src/RendererModules/OpenGL/CMakeFiles/generate.stamp is up-to-date.
+  GL.cpp
+  GL3FBOTextureTarget.cpp
+  GL3GeometryBuffer.cpp
+  GL3Renderer.cpp
+  GLFBOTextureTarget.cpp
+  GLGeometryBuffer.cpp
+  GLRenderer.cpp
+  GeometryBufferBase.cpp
+  RendererBase.cpp
+  Shader.cpp
+  ShaderManager.cpp
+  StateChangeWrapper.cpp
+  Texture.cpp
+  TextureTarget.cpp
+  ViewportTarget.cpp
+  WGLPBTextureTarget.cpp
+     Creating library C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUIOpenGLRenderer-0_d.lib and object C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/lib/CEGUIOpenGLRenderer-0_d.exp
+  CEGUIOpenGLRenderer-0.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\CEGUIOpenGLRenderer-0_d.dll
+  CEGUIOpenGLRenderer-0.vcxproj -> C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUIOpenGLRenderer-0_d.pdb (Full PDB)

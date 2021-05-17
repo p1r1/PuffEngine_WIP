@@ -1,0 +1,12 @@
+﻿  MainGameTutorials.cpp
+c:\users\faruk\documents\visual studio 2015\projects\akiramero\graphics 1\zombiegame\puffengine\vertex.h(16): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+c:\users\faruk\documents\visual studio 2015\projects\akiramero\graphics 1\zombiegame\graphicstutorials\maingametutorials.cpp(51): warning C4305: '+=': truncation from 'double' to 'float'
+c:\users\faruk\documents\visual studio 2015\projects\akiramero\graphics 1\zombiegame\graphicstutorials\maingametutorials.cpp(55): warning C4018: '<': signed/unsigned mismatch
+c:\users\faruk\documents\visual studio 2015\projects\akiramero\graphics 1\zombiegame\graphicstutorials\maingametutorials.cpp(103): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+c:\users\faruk\documents\visual studio 2015\projects\akiramero\graphics 1\zombiegame\graphicstutorials\maingametutorials.cpp(183): warning C4129: 'P': unrecognized character escape sequence
+c:\users\faruk\documents\visual studio 2015\projects\akiramero\graphics 1\zombiegame\graphicstutorials\maingametutorials.cpp(192): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  main.cpp
+  graphicsTutorials.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\Debug\graphicsTutorials.exe
+  graphicsTutorials.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\Debug\graphicsTutorials.pdb (Partial PDB)

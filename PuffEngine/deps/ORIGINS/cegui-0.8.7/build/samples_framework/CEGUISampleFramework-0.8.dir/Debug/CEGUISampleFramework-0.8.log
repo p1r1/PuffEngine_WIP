@@ -1,0 +1,18 @@
+﻿  Building Custom Rule C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/samples_framework/CMakeLists.txt
+  CMake does not need to re-run because C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp is up-to-date.
+  SamplesFrameworkBase.cpp
+  SamplesFramework.cpp
+  CEGuiBaseApplication.cpp
+  CEGuiRendererSelector.cpp
+  Samples_xmlHandler.cpp
+  SampleData.cpp
+  MetaDataWindowManager.cpp
+  SamplesBrowserManager.cpp
+  Win32AppHelper.cpp
+  Win32CEGuiRendererSelector.cpp
+  CEGuiGLFWSharedBase.cpp
+  CEGuiGLFW2SharedBase.cpp
+  CEGuiOpenGLBaseApplication.cpp
+  CEGuiOpenGL3BaseApplication.cpp
+  CEGUISampleFramework-0.8.vcxproj -> C:\Users\Faruk\Documents\Visual Studio 2015\Projects\AKIRAMERO\graphics 1\ZombieGame\deps\ORIGINS\cegui-0.8.7\build\bin\CEGUISampleFramework-0.8_d.exe
+  CEGUISampleFramework-0.8.vcxproj -> C:/Users/Faruk/Documents/Visual Studio 2015/Projects/AKIRAMERO/graphics 1/ZombieGame/deps/ORIGINS/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8_d.pdb (Full PDB)

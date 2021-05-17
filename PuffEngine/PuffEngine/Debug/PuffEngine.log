@@ -1,0 +1,54 @@
+﻿  AudioEngine.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\AudioEngine.cpp(91,3): warning C4551: function call missing argument list
+  Camera2D.cpp
+  DebugRenderer.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  GUI.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\GUI.cpp(225,59): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\GUI.cpp(225,44): warning C4244: 'argument': conversion from 'Sint32' to 'float', possible loss of data
+  IMainGame.cpp
+  ParticleBatch2D.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  ParticleEngine2D.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  PuffErrors.cpp
+  GLSLProgram.cpp
+  imageLoader.cpp
+  InputManager.cpp
+  IOManager.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\IOManager.cpp(19,15): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\IOManager.cpp(24,26): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\IOManager.cpp(46,15): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\IOManager.cpp(51,26): warning C4244: '-=': conversion from 'std::streamoff' to 'int', possible loss of data
+  picoPNG.cpp
+  PuffEngine.cpp
+  ResourceManager.cpp
+  ScreenList.cpp
+  Sprite.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+  SpriteBatch.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\SpriteBatch.cpp(96,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\SpriteBatch.cpp(127,20): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\SpriteBatch.cpp(161,22): warning C4018: '<': signed/unsigned mismatch
+  SpriteFont.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Vertex.h(16,36): warning C4244: 'initializing': conversion from 'float' to 'GLubyte', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\SpriteFont.cpp(98,33): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\SpriteFont.cpp(108,31): warning C4244: '*=': conversion from 'float' to 'unsigned char', possible loss of data
+  TextureCahce.cpp
+  Generating Code...
+  Compiling...
+  Timing.cpp
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Timing.cpp(24,19): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Timing.cpp(26,33): warning C4244: 'argument': conversion from 'float' to 'Uint32', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Timing.cpp(37,25): warning C4244: 'initializing': conversion from 'Uint32' to 'float', possible loss of data
+D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\PuffEngine\Timing.cpp(40,28): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+  Window.cpp
+  Generating Code...
+SDL2_ttf.lib(SDL2_ttf.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+SDL2_mixer.lib(SDL2_mixer.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+opengl32.lib(OPENGL32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+glew32.lib(glew32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+CEGUIBase-0_d.lib(CEGUIBase-0_d.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+CEGUIOpenGLRenderer-0_d.lib(CEGUIOpenGLRenderer-0_d.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in SDL2.lib(SDL2.dll); second definition ignored
+  PuffEngine.vcxproj -> D:\Projects\0DEVS\c++\AKIRAMERO\OpenGLGraphics2DTutorials\PuffEngineFinal\Debug\PuffEngine.lib
